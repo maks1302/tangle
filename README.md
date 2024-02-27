@@ -1,10 +1,15 @@
 #copy command and Change yourName_Telemetry bellow
 
 yourname=<name>
+
 sudo systemctl stop tangle
+
 sudo systemctl disable tangle
+
 cd $HOME
+
 rm -rf /etc/systemd/system/tangle.service
+
 rm -rf $HOME/.tangle/data/chains/tangle-testnet/db
 
 tee /etc/systemd/system/tangle.service > /dev/null << EOF
