@@ -39,7 +39,7 @@ ExecStart=/usr/bin/tangle \
   --auto-insert-keys \
   --validator \
   --pruning archive
-  --telemetry-url "wss://telemetry.polkadot.io/submit 0" \
+  --telemetry-url "wss://telemetry.polkadot.io/submit/ 1" \
   --no-mdns
 [Install]
 WantedBy=multi-user.target
